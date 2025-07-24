@@ -20,3 +20,9 @@ function getRandomColor() {
     let color = `rgb(${red}, ${green}, ${blue})`;
     return color;
 }
+
+let p = document.querySelector("p");
+p.addEventListener("click", function() {
+    console.log("Paragraph clicked!");
+    
+})
